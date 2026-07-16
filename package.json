@@ -1,0 +1,30 @@
+{
+  "name": "benua-sport-next",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Benua Sport — Toko olahraga online & pre-order. Next.js + TypeScript + Firebase.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "seed": "tsx scripts/seed.ts"
+  },
+  "dependencies": {
+    "firebase": "^10.14.1",
+    "firebase-admin": "^12.3.1",
+    "next": "^14.2.5",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.15",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "dotenv": "^16.4.5",
+    "eslint": "^8.57.0",
+    "eslint-config-next": "^14.2.5",
+    "tsx": "^4.16.5",
+    "typescript": "^5.5.4"
+  }
+}
